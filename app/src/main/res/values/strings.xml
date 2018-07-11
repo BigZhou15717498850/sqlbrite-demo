@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Demo_SqlBrite</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_query">查询</string>
 </resources>

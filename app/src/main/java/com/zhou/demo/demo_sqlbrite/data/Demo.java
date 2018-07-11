@@ -64,4 +64,15 @@ public class Demo {
     public void setEnable(boolean enable) {
         this.enable = enable;
     }
+
+    @Override
+    public String toString() {
+        return "Demo{" +
+                "username='" + username + '\'' +
+                ", description='" + description + '\'' +
+                ", age='" + age + '\'' +
+                ", sex='" + sex + '\'' +
+                ", enable=" + enable +
+                '}';
+    }
 }
